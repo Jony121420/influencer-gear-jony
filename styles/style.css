@@ -80,11 +80,12 @@ main .second-sec .second-sec-text{
 }
 /* Product section starts from here */
 
-.product-sec-headline{
-    margin-top: 115px;
+.product-sec-headline {
+    margin-top: 220px;
     align-items: center;
     margin-left: 844px;
     margin-bottom: -166px;
+    font-size: 28px;
     
     
 }
@@ -143,6 +144,9 @@ main .second-sec .second-sec-text{
     line-height: 40px;
  
 }
+.product .product-detail .product-title h2{
+    font-size: 28px;
+}
 .product .product-detail .product-rating h2{
     font-size: 16px;
     margin-top: -12px;
@@ -157,19 +161,28 @@ main .second-sec .second-sec-text{
 
 .product .product-detail .product-info{
     display: flex;
-    flex-direction: row;
+   
     align-items: center;
     margin-top: -12px;
+    flex-wrap: wrap;
    
 }
 
 .product .product-detail .product-info .icon{
     display: flex;
 }
-.product .product-detail .product-info .icon .info-rating{
+.product .product-detail .product-info .icon .star{
+    color: orange;
+    font-size: 12px;
+}
+
+.product .product-detail .product-info .icon .info-rating {
     font-size: 14px;
     line-height: 22px;
+   
+    
 }
+
 
 .product .product-hint p{
     font-weight: bold;

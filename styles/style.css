@@ -16,7 +16,7 @@ header .left-head h2{
   
 
 
-}
+
 
 /* ----------main section starts from here 
 ---------------------------------------------*/
@@ -267,7 +267,7 @@ footer{
        margin-left: -103px;
    }
     .left-head {
-        background-color: red;
+       
         margin-left: 120px;
         margin-top: 87px;
       
@@ -281,7 +281,7 @@ footer{
         margin-top: 15px;
     }
     .second-sec{
-        background-color: violet;
+       
         flex-direction: column;
         position: static;
        
@@ -296,7 +296,7 @@ footer{
         height: 157px;
     }
     .second-sec .second-sec-text{
-        margin-left: 73px;
+        margin-left: 93px;
         margin-top: 285px;
         width: 50%;
     }
@@ -318,22 +318,61 @@ footer{
         font-size: 10px;
         padding: 0;
     }
+    .product-sec-headline{
+        margin-left: 34%;
+        font-size: 14px;
+        margin-top: 272px;
+    }
     .product-sec{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-top: 163px;
         
     }
     .product .product-img img{
         height: 156px;
     width: 200px;
-    margin: 15px;
     
+    
+    }
+    .product .product-img{
+        margin-left: -6px;
+        margin-top: 15px;
     }
     .product-sec .products .product{
         width: 219px;
         margin-left: 87px;
     }
-   
+    footer{
+        width: 100%;
+    }
+    footer .footer-text{
+        margin-left: -174px;
+    }
+    footer .footer-icon{
+        margin-left: 2%;
+        margin-top: 22px;
+    }
+    footer .footer-icon .icon{
+        margin-left: 26px;
+        font-size: 13px;
+    }
+    footer .footer-text h2{
+     font-size: 16px;
+     margin-left: 51%;
+     margin-top: 5px;
+ }
+    
+    footer .footer-text p{
+        font-size: 12px;
+        margin-left:48%;
+       
+        width: fit-content;
+    }
+    footer .footer-text h3{
+        font-size: 12px;
+
+    }
 
    
     

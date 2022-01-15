@@ -10,11 +10,12 @@ body{
 header .left-head h2{
     font-size: 24px;
     font-weight: 700;
+    margin-left: 120px;
+    margin-top: 87px;
+}
   
-margin-left: 6.7%;
-margin-right: 74.79%;
-margin-top: 2.63%;
-margin-bottom: 95.79%;
+
+
 }
 
 /* ----------main section starts from here 
@@ -24,9 +25,11 @@ margin-bottom: 95.79%;
 .second-sec{
     display: flex;
     margin-top: 10px;
+    flex-direction: row;
+    position: absolute;
 }
 main .second-sec .second-sec-text{
-    position: absolute;
+    
    
     margin-left: 120px;
     margin-top: 285px;
@@ -56,53 +59,96 @@ main .second-sec .second-sec-text{
 .second-sec-text .second-sec-button button>span{
     margin-left: 10px;
 }
+
+
 /* --------------second section image part 
 -
 ----------------------------------------------*/
-.product-sec{
-    margin-top: 200px;
 
-}
-.product-sec .products .product{
-    width: 350px;
-    height: 500px;
-    box-shadow: 0px 0px 40px 0px #00000026;
-    background-color: white;
 
-}
-.product-sec .product-sec-headline{
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 70px
-    
-    
-}
 .second-sec .second-sec-img{
+    
     margin-left: 1325px;
-    margin-top: 272px;
+    margin-top: -479px;
+
 }
 .second-sec .second-sec-img img{
     width: 470px;
     height: 443px;
+   
     
 }
 /* Product section starts from here */
+
+.product-sec-headline{
+    margin-top: 115px;
+    align-items: center;
+    margin-left: 844px;
+    margin-bottom: -166px;
+    
+    
+}
+
+.product-sec{
+   margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    column-gap: 11px;
+    row-gap: 30px;
+    background: none;
+    justify-content: center;
+    
+    
+   
+    
+
+  
+    
+}
+   
+
+
+
+.product-sec .product{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+   
+    border-radius: 5px;
+    margin-left: 50px;
+    
+    
+    
+  
+
+}
 
 .product .product-img img{
    
     height: 256px;
     width: 300px;
+    margin: 15px;
+    
     
 
 }
+.product .product-detail{
+    margin-top: -41px;
+    margin-left: 14px;
+}
+
 .product .product-detail .product-title{
     font-weight: 500;
     font-size: 28px;
     line-height: 40px;
+ 
 }
 .product .product-detail .product-rating h2{
-    font-size: 24px;
-    line-height: 150%;
+    font-size: 16px;
+    margin-top: -12px;
+    
+    
+    
 
 }
 
@@ -113,6 +159,8 @@ main .second-sec .second-sec-text{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: -12px;
+   
 }
 
 .product .product-detail .product-info .icon{
@@ -127,5 +175,7 @@ main .second-sec .second-sec-text{
     font-weight: bold;
     font-size: 14px;
     line-height: 143%;  
+    margin-top: -12px;
+    
 }
 

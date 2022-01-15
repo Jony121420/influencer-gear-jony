@@ -258,3 +258,83 @@ footer{
     
 }
 
+/* <!--------------------------------
+------------------ media queries ------->
+<!-- ----------------------------
+    --------------------mobile devices --> */
+@media  only screen and (max-width:688px) {
+   header{
+       margin-left: -103px;
+   }
+    .left-head {
+        background-color: red;
+        margin-left: 120px;
+        margin-top: 87px;
+      
+
+
+    }
+    header .left-head h2{
+        font-size: 14px;
+    }
+    main{
+        margin-top: 15px;
+    }
+    .second-sec{
+        background-color: violet;
+        flex-direction: column;
+        position: static;
+       
+    }
+    .second-sec .second-sec-img{
+        margin-left: 30%;
+        margin-top: -438px;
+    
+    }
+    .second-sec .second-sec-img img{
+        width: 157px;
+        height: 157px;
+    }
+    .second-sec .second-sec-text{
+        margin-left: 73px;
+        margin-top: 285px;
+        width: 50%;
+    }
+    
+    
+
+    
+    .second-sec .second-sec-text .second-sec-title h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .second-sec .second-sec-text .second-sec-para p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .second-sec .second-sec-text .second-sec-button button{
+        width: 114px;
+        height: 24px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .product-sec{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .product .product-img img{
+        height: 156px;
+    width: 200px;
+    margin: 15px;
+    
+    }
+    .product-sec .products .product{
+        width: 219px;
+        margin-left: 87px;
+    }
+   
+
+   
+    
+}

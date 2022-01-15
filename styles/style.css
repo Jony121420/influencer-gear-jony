@@ -1,0 +1,104 @@
+/* -------------------font link----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+     font-family: 'Poppins', sans-serif;
+}
+/* --------header css starts from here
+---------------------------------------- */
+header .left-head h2{
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+margin-left: 6.7%;
+margin-right: 74.79%;
+margin-top: 2.63%;
+margin-bottom: 95.79%;
+}
+
+/* ----------main section starts from here 
+---------------------------------------------*/
+/* -------------second section starts from here
+-----------------------------------------------------*/
+.second-sec{
+    display: flex;
+}
+main .second-sec .second-sec-text{
+    position: absolute;
+   
+    margin-left: 120px;
+    margin-top: 285px;
+}
+.second-sec-text .second-sec-title{
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: bold;
+}
+.second-sec-text .second-sec-para p{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+}
+.second-sec-text .second-sec-button button{
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.second-sec-text .second-sec-button button>span{
+    margin-left: 10px;
+}
+/* --------------second section image part 
+-
+----------------------------------------------*/
+.product-sec .product-sec-headline{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px
+}
+.second-sec .second-sec-img{
+    margin-left: 1325px;
+    margin-top: 272px;
+}
+.second-sec .second-sec-img img{
+    width: 470px;
+    height: 443px;
+    
+}
+/* Product section starts from here */
+.product .product-img img{
+   
+    height: 256px;
+    width: 300px;
+    
+
+}
+.product .product-detail .product-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+}
+.product .product-detail .product-rating h2{
+    font-size: 24px;
+    line-height: 150%;
+
+}
+.product .product-detail .prduct-info .icon .star{
+    width: 16px;
+height: 16px;
+    
+
+}
+.product .product-detail .product-info .icon .info-rating{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+

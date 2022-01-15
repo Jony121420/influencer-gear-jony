@@ -16,7 +16,7 @@ header .left-head h2{
   
 
 
-
+}
 
 /* ----------main section starts from here 
 ---------------------------------------------*/
@@ -362,8 +362,8 @@ footer{
      margin-left: 51%;
      margin-top: 5px;
  }
-    
-    footer .footer-text p{
+    }
+    .footer .footer-text p{
         font-size: 12px;
         margin-left:48%;
        
